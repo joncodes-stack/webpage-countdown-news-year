@@ -20,7 +20,6 @@ function updateCountdown() {
     const s = Math.floor(timeDiff / 1000 ) % 60;
 
     // add values to DOM 
-    hours.innerHTML = h < 10 ? '0' + h : h;
     minutes.innerHTML = m < 10 ? '0' + m : m;
     seconds.innerHTML = s < 10 ? '0' + s : s;
 }
